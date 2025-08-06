@@ -1,4 +1,60 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Noto Sans TC', serif;
+	color: $neutral-900;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 1296px;
   margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.py-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.py-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.p-12 {
+  padding: 12px;
+}
+
+.mr-48 {
+  margin-right: 48px;
+}
+
+.mr-40 {
+  margin-right: 40px;
 }
