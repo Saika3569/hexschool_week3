@@ -1,0 +1,50 @@
+.breadcrumb {
+  li:first-of-type {
+    color: $neutral-600;
+  }
+
+  li + li:before {
+    content: '/';
+    padding: 0 12px;
+    font-weight: 700;
+    color: $neutral-300;
+  }
+}
+
+.category {
+  .active {
+    color: $primary-400;
+  }
+}
+
+.product {
+  span {
+    display: block;
+  }
+
+  span:first-of-type {
+    font-weight: 700;
+  }
+}
+
+.pagination {
+  li {
+    padding: 8px 15px;
+  }
+
+  .active {
+    background-color: $primary-300;
+    font-weight: 400;
+  }
+}
+
+.copyright {
+  padding-top: 32px;
+  padding-bottom: 64px;
+  border-top: 1px solid $neutral-300;
+  color: $neutral-600;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-weight: 400;
+}
