@@ -1,5 +1,5 @@
 .breadcrumb {
-  li:first-of-type {
+  li:not(li:last-of-type) {
     color: $neutral-600;
   }
 
