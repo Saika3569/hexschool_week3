@@ -61,13 +61,35 @@ img {
   }
 }
 
+@media (max-width: 768px) {
+  .btn {
+    padding: 8px 16px;
+  }
+}
+
 .container {
-  width: 1296px;
+  max-width: calc(1296px + 24x);
+  padding-left: 12px;
+  padding-right: 12px;
   margin: 0 auto;
 }
 
 .d-flex {
   display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .block-md {
+    display: block;
+  }
 }
 
 .flex-wrap {
@@ -141,6 +163,22 @@ img {
   padding: 12px;
 }
 
+@media (max-width: 768px) {
+
+  .pb-md-32 {
+    padding-bottom: 32px;
+  }
+
+  .p-md-24 {
+    padding: 24px;
+  }
+
+  .py-md-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
 .mr-auto {
   margin-right: auto;
 }
@@ -197,6 +235,37 @@ img {
   margin-bottom: 48px;
 }
 
+@media (max-width: 768px) {
+
+  .mr-md-16 {
+    margin-right: 16px;
+  }
+
+  .mb-md-4 {
+    margin-bottom: 4px;
+  }
+
+  .mb-md-8 {
+    margin-bottom: 8px;
+  }
+
+  .mb-md-16 {
+    margin-bottom: 12px;
+  }
+
+  .mb-md-16 {
+    margin-bottom: 16px;
+  }
+
+  .mb-md-24 {
+    margin-bottom: 24px;
+  }
+
+  .mb-md-32 {
+    margin-bottom: 32px;
+  }
+}
+
 .h1 {
   font-size: 40px;
   line-height: 1.2;
@@ -230,6 +299,37 @@ img {
   line-height: 1.2;
   letter-spacing: 0.05em;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+
+  .text-md-left {
+    text-align: left;
+  }
+
+  .h1-md {
+    font-size: 40px;
+  }
+
+  .h2-md {
+    font-size: 32px;
+  }
+
+  .h3-md {
+    font-size: 28px;
+  }
+
+  .h4-md {
+    font-size: 24px;
+  }
+
+  .h5-md {
+    font-size: 20px;
+  }
+
+  .h6-md {
+    font-size: 16px;
+  }
 }
 
 .fw-400 {
@@ -329,4 +429,39 @@ img {
   padding-left: 12px;
   padding-right: 12px;
   width: calc(100% / 12) * 12;
+}
+
+@media (max-width: 768px) {
+  .row {
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+
+  .col-md-1 {
+    width: calc(100% / 4);
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .col-md-2 {
+    width: calc(100% / 4) * 2;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .col-md-3 {
+    width: calc(100% / 4) * 3;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .col-md-4 {
+    width: 100%;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .md-hidden {
+    display: none;
+  }
 }
