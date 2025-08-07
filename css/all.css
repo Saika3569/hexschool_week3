@@ -80,6 +80,22 @@ img {
   border-bottom: 1px solid rgb(222, 226, 230);
 }
 
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .btn {
   border-radius: 4px;
   padding: 12px 24px;
@@ -128,6 +144,10 @@ img {
 
 .align-center {
   align-items: center;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
 }
 
 .py-7 {
@@ -233,28 +253,39 @@ img {
   margin-bottom: 48px;
 }
 
+.h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
 .h2 {
   font-size: 32px;
   line-height: 1.2;
   letter-spacing: 0.05em;
+  font-weight: 700;
 }
 
 .h3 {
   font-size: 28px;
   line-height: 1.2;
   letter-spacing: 0.05em;
+  font-weight: 700;
 }
 
 .h4 {
   font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0.05em;
+  font-weight: 700;
 }
 
 .h5 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.05em;
+  font-weight: 700;
 }
 
 .fw-400 {
@@ -267,6 +298,10 @@ img {
 
 .text-primary-400 {
   color: rgb(87, 162, 3);
+}
+
+.bg-primary-100 {
+  background-color: rgb(245, 254, 231);
 }
 
 .bg-primary-200 {
@@ -446,4 +481,37 @@ img {
 }
 .action i {
   margin-right: 8px;
+}
+
+.history {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.history span {
+  display: inline-block;
+  padding-left: 8px;
+  margin-left: 8px;
+  border-left: 1px solid var(--neutral-900);
+}
+
+.idea li {
+  padding-left: 12px;
+  border-left: 3px solid var(--neutral-300);
+}
+
+.story i {
+  margin-right: 4px;
+}
+.story a {
+  text-decoration: none;
+}
+.story a span {
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--primary-400);
+}
+
+.title {
+  position: absolute;
+  bottom: 151px;
+  right: 871px;
 }/*# sourceMappingURL=all.css.map */

@@ -19,6 +19,22 @@ img {
   border-bottom: 1px solid $neutral-300;
 }
 
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .btn {
   border-radius: 4px;
   padding: 12px 24px;
@@ -72,6 +88,10 @@ img {
 
 .align-center {
   align-items: center;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
 }
 
 .py-7 {
@@ -177,28 +197,39 @@ img {
   margin-bottom: 48px;
 }
 
+.h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
 .h2 {
   font-size: 32px;
   line-height: 1.2;
   letter-spacing: 0.05em;
+  font-weight: 700;
 }
 
 .h3 {
   font-size: 28px;
   line-height: 1.2;
   letter-spacing: 0.05em;
+  font-weight: 700;
 }
 
 .h4 {
   font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0.05em;
+  font-weight: 700;
 }
 
 .h5 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.05em;
+  font-weight: 700;
 }
 
 .fw-400 {
@@ -211,6 +242,10 @@ img {
 
 .text-primary-400 {
   color: $primary-400
+}
+
+.bg-primary-100 {
+  background-color: $primary-100;
 }
 
 .bg-primary-200 {
