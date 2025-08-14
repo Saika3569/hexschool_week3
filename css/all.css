@@ -623,18 +623,15 @@ img {
 
 .title {
   position: absolute;
-  bottom: 151px;
-  right: 871px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .title span {
   font-size: 28px;
 }
 
 @media (max-width: 768px) {
-  .title {
-    bottom: 87px;
-    right: 124.5px;
-  }
   .title span {
     font-size: 20px;
   }
